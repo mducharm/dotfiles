@@ -138,3 +138,11 @@ ex ()
   fi
 }
 [ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
+
+if [ -e $HOME/.bash_aliases ]; then
+    source $HOME/.bash_aliases
+fi
+
+if [ -e $HOME/.bash_functions ]; then
+    source $HOME/.bash_functions
+fi
