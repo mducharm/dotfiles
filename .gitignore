@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.bashrc
+!*.bash_aliases
+!*.bash_functions
+!*.spacemacs
+!.gitignore
